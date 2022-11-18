@@ -1,7 +1,10 @@
 const inputList = document.querySelectorAll("input[type='radio']");
 
+const body = document.getElementById('body');
+
 inputList.forEach((input) => {
     input.onclick = () => {
-        document.documentElement.classList.add(input.id);
+        body.removeAttribute('class');
+        body.classList.add(input.id);
     }
 });

@@ -38,8 +38,36 @@
     --url-back:url('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/136.svg');
 }
 
-body,
-#body{
+.yellow{
+    --back-color:#fccf00;
+    --front-color:#0d131a;
+    --url-back:url('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/135.svg');
+}
+.dark{
+    --back-color:#30353a;
+    --front-color:#ffe100;
+    --url-back:url('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/197.svg');
+}
+
+.green{
+    --back-color:#fff1ac;
+    --front-color:#39b382;
+    --url-back:url('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/470.svg');
+}
+
+.blue{
+    --back-color:#5dc1cf;
+    --front-color:#00568a;
+    --url-back:url('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/134.svg');
+}
+
+.red{
+    --back-color:#ca4819;
+    --front-color:#faed00;
+    --url-back:url('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/136.svg');
+}
+
+body{
     font-family: sans-serif;
     background-color: var(--back-color);
     color: var(--front-color);
